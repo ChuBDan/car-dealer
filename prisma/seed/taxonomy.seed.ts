@@ -1,7 +1,6 @@
 import { Prisma, PrismaClient } from "@prisma/client";
 import { parse } from "csv";
 import fs from "node:fs";
-import { connect } from "node:http2";
 
 type Rows = {
   make: string;
